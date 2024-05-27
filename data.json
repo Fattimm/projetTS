@@ -1,0 +1,31 @@
+{
+    "cargaison": [
+        {
+            "id": "1",
+            "type": "maritime",
+            "lieu_depart": "france",
+            "lieu_arriver": "senegal",
+            "Nombre_produits": "234",
+            "statut": "ouvert",
+            "etat": "en_attente"
+        },
+        {
+            "id": "2",
+            "type": "maritime",
+            "lieu_depart": "france",
+            "lieu_arriver": "senegal",
+            "Nombre_produits": "9238",
+            "statut": "ouvert",
+            "etat": "en_attente"
+        },
+        {
+            "id": "3",
+            "type": "maritime",
+            "lieu_depart": "france",
+            "lieu_arriver": "senegal",
+            "Nombre_produits": "238",
+            "statut": "ouvert",
+            "etat": "en_attente"
+        }
+    ]
+}
