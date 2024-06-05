@@ -59,4 +59,3 @@ var Incassable = /** @class */ (function (_super) {
     return Incassable;
 }(Materiel));
 export { Alimentaire, Chimique, Fragile, Incassable };
-//# sourceMappingURL=produit.js.map

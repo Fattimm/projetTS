@@ -6,8 +6,8 @@ export abstract class Cargaison {
     constructor(public distance: number) {}
   
     ajouterProduit(produit: Produit): void {
-      if (this.produits.length >= 10) {
-        throw new Error("Une cargaison ne peut pas contenir plus de 10 produits.");
+      if (this.produits.length >= 10000) {
+        throw new Error("Une cargaison ne peut pas contenir plus de 10000 produits.");
       }
       this.produits.push(produit);
     }
@@ -40,3 +40,4 @@ export abstract class Cargaison {
     }
   }
   export {Aerien, Maritime, Terrestre };  
+  

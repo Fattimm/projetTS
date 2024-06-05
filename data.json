@@ -1,31 +1,56 @@
 {
     "cargaison": [
         {
-            "id": "1",
+            "id": "25381",
             "type": "maritime",
-            "lieu_depart": "france",
-            "lieu_arriver": "senegal",
-            "Nombre_produits": "234",
-            "statut": "ouvert",
-            "etat": "en_attente"
+            "lieu_depart": "[object HTMLInputElement]",
+            "lieu_arriver": "Inconnu",
+            "date_depart": "2024-06-03",
+            "date_arriver": "2024-06-08",
+            "distance": "5746.54 km",
+            "Nombre_produits": "",
+            "poids": "123456",
+            "status": "Ouvert",
+            "etat": "Attente"
         },
         {
-            "id": "2",
-            "type": "maritime",
-            "lieu_depart": "france",
-            "lieu_arriver": "senegal",
-            "Nombre_produits": "9238",
-            "statut": "ouvert",
-            "etat": "en_attente"
+            "id": "35308",
+            "type": "terrestre",
+            "lieu_depart": "[object HTMLInputElement]",
+            "lieu_arriver": "Inconnu",
+            "date_depart": "2024-06-03",
+            "date_arriver": "2024-06-05",
+            "distance": "526.65 km",
+            "Nombre_produits": "10000",
+            "poids": "",
+            "status": "Ouvert",
+            "etat": "Attente"
         },
         {
-            "id": "3",
+            "id": "76746",
             "type": "maritime",
-            "lieu_depart": "france",
-            "lieu_arriver": "senegal",
-            "Nombre_produits": "238",
-            "statut": "ouvert",
-            "etat": "en_attente"
+            "lieu_depart": "[object HTMLInputElement]",
+            "lieu_arriver": "Inconnu",
+            "date_depart": "2024-06-03",
+            "date_arriver": "2024-06-09",
+            "distance": "5085.76 km",
+            "Nombre_produits": "",
+            "poids": "123456",
+            "status": "Ouvert",
+            "etat": "Attente"
+        },
+        {
+            "id": "63543",
+            "type": "maritime",
+            "lieu_depart": "[object HTMLInputElement]",
+            "lieu_arriver": "Inconnu",
+            "date_depart": "2024-06-04",
+            "date_arriver": "2024-06-09",
+            "distance": "5800.91 km",
+            "Nombre_produits": "224465",
+            "poids": "",
+            "status": "Ouvert",
+            "etat": "Attente"
         }
     ]
 }
