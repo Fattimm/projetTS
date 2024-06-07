@@ -90,7 +90,7 @@
                             class="w-full rounded-md border border-gray-300 px-2 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             >
                             <option value="Alimentaire">Alimentaire</option>
-                            <option value="Matériels">Matériels</option>
+                            <option value="Matériels">Materiels</option>
                             <option value="Chimique">Chimique</option>
                     </select>
                 </div>

@@ -1,56 +1,117 @@
 {
     "cargaison": [
         {
-            "id": "25381",
+            "id": "86702",
             "type": "maritime",
             "lieu_depart": "[object HTMLInputElement]",
             "lieu_arriver": "Inconnu",
-            "date_depart": "2024-06-03",
-            "date_arriver": "2024-06-08",
-            "distance": "5746.54 km",
+            "date_depart": "2024-06-05",
+            "date_arriver": "2024-06-12",
+            "distance": "7364.80 km",
+            "Nombre_produits": "1200",
+            "poids": "",
+            "status": "Ouvert",
+            "etat": "Attente",
+            "produits": [
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "10",
+                    "weight": "10",
+                    "price": "10",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "1234",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "1234"
+                },
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "10",
+                    "weight": "10",
+                    "price": "10",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "1234",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "1234"
+                },
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "12",
+                    "weight": "12",
+                    "price": "12",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "13",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "13"
+                },
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "12",
+                    "weight": "12",
+                    "price": "12",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "13",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "13"
+                },
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "12",
+                    "weight": "12",
+                    "price": "12",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "12345",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "12345"
+                },
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "12",
+                    "weight": "12",
+                    "price": "12",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "12345",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "12345"
+                },
+                {
+                    "cargaisonId": "86702",
+                    "productName": "moto",
+                    "productType": "Mat\u00e9riels",
+                    "quantity": "12",
+                    "weight": "12",
+                    "price": "12",
+                    "nomExpediteur": "dia",
+                    "telExpediteur": "12345",
+                    "nomDestinataire": "diop",
+                    "telDestinataire": "12345"
+                }
+            ]
+        },
+        {
+            "id": "18711",
+            "type": "maritime",
+            "lieu_depart": "[object HTMLInputElement]",
+            "lieu_arriver": "Inconnu",
+            "date_depart": "2024-06-05",
+            "date_arriver": "2024-06-12",
+            "distance": "2796.66 km",
             "Nombre_produits": "",
             "poids": "123456",
             "status": "Ouvert",
-            "etat": "Attente"
-        },
-        {
-            "id": "35308",
-            "type": "terrestre",
-            "lieu_depart": "[object HTMLInputElement]",
-            "lieu_arriver": "Inconnu",
-            "date_depart": "2024-06-03",
-            "date_arriver": "2024-06-05",
-            "distance": "526.65 km",
-            "Nombre_produits": "10000",
-            "poids": "",
-            "status": "Ouvert",
-            "etat": "Attente"
-        },
-        {
-            "id": "76746",
-            "type": "maritime",
-            "lieu_depart": "[object HTMLInputElement]",
-            "lieu_arriver": "Inconnu",
-            "date_depart": "2024-06-03",
-            "date_arriver": "2024-06-09",
-            "distance": "5085.76 km",
-            "Nombre_produits": "",
-            "poids": "123456",
-            "status": "Ouvert",
-            "etat": "Attente"
-        },
-        {
-            "id": "63543",
-            "type": "maritime",
-            "lieu_depart": "[object HTMLInputElement]",
-            "lieu_arriver": "Inconnu",
-            "date_depart": "2024-06-04",
-            "date_arriver": "2024-06-09",
-            "distance": "5800.91 km",
-            "Nombre_produits": "224465",
-            "poids": "",
-            "status": "Ouvert",
-            "etat": "Attente"
+            "etat": "Attente",
+            "produits": []
         }
     ]
 }

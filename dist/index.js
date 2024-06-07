@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         var row = document.createElement('tr');
         // row.id = donneesFormulaire.id;
-        row.innerHTML = "\n      <td class=\"w-1/11 py-3 px-4\"><input type=\"checkbox\" onclick=\"redirectTocargaison('".concat(donneesFormulaire.id, "')\"></td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.id, "</td>\n      <td class=\"w-1/11 py-3 px-4 type\">").concat(donneesFormulaire.type, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.lieu_depart, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.lieu_arriver, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.date_depart, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.date_arriver, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.Nombre_produits, "  ").concat(donneesFormulaire.poids, " kg</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.distance, "</td>\n      <td class=\"w-2/11 py-2 px-3 bg-gray-100 text-gray-700  status \">").concat(donneesFormulaire.status, "</td>\n      <td class=\"w-2/11 py-2 px-3 bg-gray-100 text-gray-700  etat \">").concat(donneesFormulaire.etat, "</td>\n      <td class=\"w-2/11 py-2 px-3 \"><button class=\"py-1 px-2 bg-blue-500 hover:bg-blue-700 text-white font-bold modifybtn\">Modifier</button></td>\n      <td class=\"w-2/11 py-2 px-3 \"><button class=\"py-1 px-2 bg-blue-500 hover:bg-blue-700 text-white font-bold\">Details</button></td>\n\n\n  ");
+        row.innerHTML = "\n      <td class=\"w-1/11 py-3 px-4\"><input type=\"checkbox\" onclick=\"redirectTocargaison('".concat(donneesFormulaire.id, "')\"></td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.id, "</td>\n      <td class=\"w-1/11 py-3 px-4 type\">").concat(donneesFormulaire.type, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.lieu_depart, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.lieu_arriver, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.date_depart, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.date_arriver, "</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.Nombre_produits, "  ").concat(donneesFormulaire.poids, " kg</td>\n      <td class=\"w-1/11 py-3 px-4\">").concat(donneesFormulaire.distance, "</td>\n      <td class=\"w-2/11 py-2 px-3 bg-gray-100 text-gray-700  status \">").concat(donneesFormulaire.status, "</td>\n      <td class=\"w-2/11 py-2 px-3 bg-gray-100 text-gray-700  etat \">").concat(donneesFormulaire.etat, "</td>\n      <td class=\"w-2/11 py-2 px-3 \"><button class=\"py-1 px-2 bg-blue-500 hover:bg-blue-700 text-white font-bold modifybtn\">Modifier</button></td>\n      <td class=\"w-2/11 py-2 px-3 \"><button class=\"py-1 px-2 bg-blue-500 hover:bg-blue-700 text-white font-bold\">Details</button></td>\n\n  ");
         cargoList.appendChild(row);
         formulaireAjoutCargaison.reset();
         togglePopup(false);
@@ -154,7 +154,8 @@ document.addEventListener('DOMContentLoaded', function () {
             Nombre_produits: nombreProduits,
             poids: poids,
             status: formData.get('status'),
-            etat: formData.get('etat')
+            etat: formData.get('etat'),
+            produits: []
         };
     }
     //FONCTION POUR ENREGISTRER LES DONNÉES DANS JSON ______________________________________________________________________
@@ -310,6 +311,7 @@ document.addEventListener('DOMContentLoaded', function () {
             poids: parseInt(modifyForm.querySelector('#modifypoids').value),
             status: modifyForm.querySelector('#modifyStatus').value,
             etat: modifyForm.querySelector('#modifyEtat').value,
+            produits: []
         };
         // Mise à jour des données cargaison
         cargaisonData = cargaisonData.map(function (cargo) {

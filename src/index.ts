@@ -1,5 +1,5 @@
-import { Alimentaire, Chimique, Fragile, Incassable } from './model/produit';
-import { Aerien, Maritime, Terrestre } from './model/cargaison';
+import { Alimentaire, Chimique, Fragile, Incassable } from './model/produit.js';
+import { Aerien, Maritime, Terrestre } from './model/cargaison.js';
 document.addEventListener('DOMContentLoaded', () => {
   const popupButton = document.getElementById('popupButton')! as HTMLButtonElement;
   const addCargoPopup = document.getElementById('ajoutcargo') as HTMLDivElement;
@@ -96,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <td class="w-2/11 py-2 px-3 "><button class="py-1 px-2 bg-blue-500 hover:bg-blue-700 text-white font-bold modifybtn">Modifier</button></td>
       <td class="w-2/11 py-2 px-3 "><button class="py-1 px-2 bg-blue-500 hover:bg-blue-700 text-white font-bold">Details</button></td>
 
-
   `;
 
     cargoList.appendChild(row);
@@ -180,7 +179,8 @@ document.addEventListener('DOMContentLoaded', () => {
       Nombre_produits: nombreProduits,
       poids: poids,
       status: formData.get('status') as string,
-      etat: formData.get('etat') as string
+      etat: formData.get('etat') as string,
+      produits:[]
     };
   }
 
@@ -227,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
     poids?: number;
     status: string;
     etat: string;
+    produits:[]
   }
   const itemsPerPageStorageKey = 'itemsPerPage';
   let currentPage = 1; // Page actuelle, initialisée à 1
@@ -368,6 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
       poids: parseInt((modifyForm.querySelector('#modifypoids') as HTMLInputElement).value),
       status: (modifyForm.querySelector('#modifyStatus') as HTMLSelectElement).value,
       etat: (modifyForm.querySelector('#modifyEtat') as HTMLSelectElement).value,
+      produits:[]
     };
 
     // Mise à jour des données cargaison
@@ -393,3 +395,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
+

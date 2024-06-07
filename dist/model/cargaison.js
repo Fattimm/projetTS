@@ -20,9 +20,6 @@ var Cargaison = /** @class */ (function () {
         this.produits = [];
     }
     Cargaison.prototype.ajouterProduit = function (produit) {
-        if (this.produits.length >= 10000) {
-            throw new Error("Une cargaison ne peut pas contenir plus de 10000 produits.");
-        }
         this.produits.push(produit);
     };
     Cargaison.prototype.getProduits = function () {
